@@ -1,0 +1,2 @@
+User-agent: *
+Sitemap: https://xcehnz.github.io/sitemap.xml

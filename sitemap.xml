@@ -1,0 +1,60 @@
+<?xml-stylesheet type="text/xsl" href="https://xcehnz.github.io/sitemap.xsl"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+  
+  <url>
+    <loc>https://xcehnz.github.io/categories/blog/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/tags/blog/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/categories/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/tags/hugo/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/post/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/tags/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+  <url>
+    <loc>https://xcehnz.github.io/post/build-blog-with-hugo/</loc>
+    <lastmod>2019-11-05T21:14:14+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url>
+  
+</urlset>
