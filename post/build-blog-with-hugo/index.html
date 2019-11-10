@@ -314,13 +314,13 @@ draft: true
 <pre class="chroma"><code class="language-shell" data-lang="shell">hugo server -t even</code></pre></td></tr></table>
 </div>
 </div>
-<p>启动后访问<a href="http://localhost:1313，就可以看到博客内容了。">http://localhost:1313，就可以看到博客内容了。</a></p>
+<p>启动后访问<a href="http://localhost:1313">http://localhost:1313</a> ，就可以看到博客内容了。</p>
 
 <h2 id="托管到github">托管到Github</h2>
 
 <p>把网站托管到Github，需要在Github上创建一个仓库名字为<code>username.github.io</code></p>
 
-<p><strong>注意</strong>：修改<code>config.toml</code>中的baseURL设置为<a href="https://username.github.io">https://username.github.io</a></p>
+<p><strong>注意</strong>：修改<code>config.toml</code>中的baseURL设置为<code>https://username.github.io</code></p>
 
 <p>在本地测试文章没有问题后，就可以发布了。终端里输入：</p>
 <div class="highlight"><div class="chroma">
@@ -366,7 +366,23 @@ draft: true
     </footer>
   </article>
         </div>
-        
+        <div id="gitalk-container"></div>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.css" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/gitalk@1/dist/gitalk.min.js" crossorigin="anonymous"></script>
+    <script type="text/javascript">
+      var gitalk = new Gitalk({
+        id: '2019-11-05 21:14:14 \x2b0800 CST',
+        title: '使用Hugo搭建个人博客',
+        clientID: '3f3e7516e16fe7037390',
+        clientSecret: 'b13c9ccbb9110811ae65122d1c64cac6dc666b03',
+        repo: 'xcehnz.github.io',
+        owner: 'xcehnz',
+        admin: ['xcehnz'],
+        body: decodeURI(location.href)
+      });
+      gitalk.render('gitalk-container');
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://github.com/gitalk/gitalk">comments powered by gitalk.</a></noscript>
 
   
 
